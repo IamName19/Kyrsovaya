@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Филиал СибГУ им. М.Ф. Решетнева в г. Лесосибирске</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/mdb.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <!-- Верхнее меню -->
+        <nav class="p-0 navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Offcanvas navbar large">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                    aria-controls="Menu">
+                    <span class="fas fa-bars"></span>
+                </button>
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 collapse navbar-collapse">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://dl.sibsau.ru/">Электронно-дистанционное обучение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Боковое меню -->
+        <section>
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="Menu"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Меню</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="https://dl.sibsau.ru/">Электронно-дистанционное
+                                обучение</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Личный кабинет</a></li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#obshieSved" aria-controls="obshieSved">
+                                Общие сведения
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#Obrazovanie" aria-controls="Obrazovanie">
+                                Образование
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#Slujbi" aria-controls="Slujbi">
+                                Службы
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="http://lfsibgu.ru/abitur/">Абитуриенту</a></li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#Studenty" aria-controls="Studenty">
+                                Студенту
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#ProfSous" aria-controls="ProfSous">
+                                Профсоюз
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="kontaktu.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Общие сведения -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="obshieSved">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Общие сведения</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                        aria-controls="Menu">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://lfsibgu.ru/sveden/common/">Сведения об образовательной
+                                организации</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="istoria.html">История</a></li>
+                        <li class="nav-item"><a class="nav-link" href="filial-segodnya.html">Филиал сегодня</a></li>
+                        <li class="nav-item"><a class="nav-link" href="obratnaya-svyaz.html">Обратная
+                                связь</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Образование -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="Obrazovanie">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Образование</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                        aria-controls="Menu">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Ученый совет</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Научно-методический совет</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Учебная часть</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Научная деятельность</a></li>
+                        <li class="nav-item nav-link">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#Kafedru" aria-controls="Kafedru">
+                                Кафедры
+                                <span class="fa fa-chevron-right"></span>
+                            </button>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Дополнительное образование</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Службы -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="Slujbi">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Службы</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                        aria-controls="Menu">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Научно-техническая библиотека</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Система менеджмента качества</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Информационно-вычислительный центр</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">"PONSSE"</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Студенту -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="Studenty">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Студенту</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                        aria-controls="Menu">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Рассписание зачетов и экзаменов</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Электронная информационно-образовательная среда</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Электронно-библиотечные системы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Рассписание занятий</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Студенту заочной формы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Кружки и секции</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Студенческий профсоюз</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Студенческий отряд</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Видеостудия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Трудоустройство выпускников</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Газета Зачет`ка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Оплата услуг через Сбербанк Онл@йн</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Профсоюз -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="ProfSous">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Профсоюз</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Menu"
+                        aria-controls="Menu">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Инфорация об организации</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Документы</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Фотогалерея</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Кафедры -->
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="Kafedru">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Кафедры</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#Obrazovanie" aria-controls="Obrazovanie">
+                        <span class="fas fa-arrow-left"></span>
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#">ИТС</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ГСПД</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ЭиЕД</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ТЛДП</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Личный кабинет преподавателя</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Сведения -->
+        <nav class="navbar navbar-expand-lg p-0 p-lg-2" style="font-size: large; background-color: rgb(230, 234, 246);">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <div class="dropdown show">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Общие сведения
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://lfsibgu.ru/sveden/common/">Сведения об
+                                    образовательной организации</a>
+                                <a class="dropdown-item" href="istoria.html">История</a>
+                                <a class="dropdown-item" href="filial-segodnya.html">Филиал сегодня</a>
+                                <a class="dropdown-item" href="obratnaya-svyaz.html">Обратная связь</a>
+                            </div>
+                        </div>
+                        <div class="dropdown show">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Образование
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Ученый совет</a>
+                                <a class="dropdown-item" href="#">Научно-методический совет</a>
+                                <a class="dropdown-item" href="#">Учебная часть</a>
+                                <a class="dropdown-item" href="#">Научная деятельность</a>
+                                <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Кафедры</a>
+                                <div class="dropdown-menu ms-4">
+                                    <a href="#" class="dropdown-item">ИТС</a>
+                                    <a href="#" class="dropdown-item">ГСПД</a>
+                                    <a href="#" class="dropdown-item">ЭиЕД</a>
+                                    <a href="#" class="dropdown-item">ТЛДП</a>
+                                    <a href="#" class="dropdown-item">Личный кабинет преподавателя</a>
+                                </div>
+                                <a class="dropdown-item" href="#">Дополнительное образование</a>
+                            </div>
+                        </div>
+                        <div class="dropdown show">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Службы
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Научно-техническая библиотека</a>
+                                <a class="dropdown-item" href="#">Система менеджмента качества</a>
+                                <a class="dropdown-item" href="#">Информационно-вычислительный центр</a>
+                                <a class="dropdown-item" href="#">"PONSSE"</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control m-2" type="search" placeholder="Поиск" aria-label="Search">
+                    <button class="btn btn-outline-primary m-2" type="submit">Поиск</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Логотип -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container ps-0">
+                <a class="navbar-brand" href="index.html"><img src="images/logo_symbol_text.png" width="100%"></a>
+                <div class="collapse navbar-collapse">
+                    <div class="col text-end">
+                        <a href="http://lfsibgu.ru/sveden/common/" class="link-dark"><u>Сведения об образовательной
+                                организации</u></a><br>
+                        <a href="obratnaya-svyaz.html" class="link-dark"><u>Обратная связь</u></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Навигация -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0 p-lg-2" style="font-size:x-large">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <a href="http://lfsibgu.ru/abitur/" class="nav-link"><i
+                                class="fa p-2 fa-user"></i>Абитуриенту</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><i class="fa p-2 fa-book"></i>
+                                Студенту
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Рассписание зачетов и экзаменов</a></li>
+                                <li><a class="dropdown-item" href="#">Электронная
+                                        информационно-образовательная среда</a></li>
+                                <li><a class="dropdown-item" href="#">Электронно-библиотечные системы</a></li>
+                                <li><a class="dropdown-item" href="#">Рассписание занятий</a></li>
+                                <li><a class="dropdown-item" href="#">Студенту заочной формы</a></li>
+                                <li><a class="dropdown-item" href="#">Кружки и секции</a></li>
+                                <li><a class="dropdown-item" href="#">Студенческий профсоюз</a></li>
+                                <li><a class="dropdown-item" href="#">Студенческий отряд</a></li>
+                                <li><a class="dropdown-item" href="#">Видеостудия</a></li>
+                                <li><a class="dropdown-item" href="#">Трудоустройство выпускников</a></li>
+                                <li><a class="dropdown-item" href="#">Газета Зачет`ка</a></li>
+                                <li><a class="dropdown-item" href="#">Оплата услуг через Сбербанк Онл@йн</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><i class="fa p-2 fa-users"></i>
+                                Профсоюз
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Инфорация об организации</a></li>
+                                <li><a class="dropdown-item" href="#">Документы</a></li>
+                                <li><a class="dropdown-item" href="#">Фотогалерея</a></li>
+                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                            </ul>
+                        </li>
+                        <a href="kontaktu.html" class="nav-link"><i class="fa p-2 fa-phone"></i>Контакты</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-12">
+                    <div class="d-grid gap-2 pt-4 sticky-top">
+                        <a href="istoria.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">История</a>
+                        <a href="filial-segodnya.html" class="btn btn-success btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Филиал сегодня</a>
+                        <a href="obratnaya-svyaz.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Обратная связь</a>
+                    </div>
+                </div>
+                <!-- Информация -->
+                <div class="col-lg-10 col-md-12">
+                    <div class="container pt-3 m-0">
+                        <p>Лесосибирский филиал федерального государственного бюджетного образовательного учреждения
+                            высшего
+                            образования "Сибирский государственный университет науки и технологий имени академика М.Ф.
+                            Решетнева"
+                            является обособленным структурным подразделением федерального государственного бюджетного
+                            образовательного учреждения высшего образования «Сибирский государственный университет науки
+                            и
+                            технологий имени академика М.Ф. Решетнева» (сокращённое наименование – филиал СибГУ в г.
+                            Лесосибирске)
+                            (далее филиал), расположенном в г. Лесосибирске Красноярского края.
+                        </p>
+                        <p>Филиал реализует основные образовательные программы высшего образования, основные программы
+                            профессионального обучения и дополнительные профессиональные программы в соответствии с
+                            потребностями
+                            региона.
+                        </p>
+                        <p>Филиал был создан в 1982 году и решает задачи по подготовке высококвалифицированных
+                            специалистов
+                            для
+                            лесохимических и деревообрабатывающих предприятий города и региона, являясь центром
+                            образования,
+                            науки и
+                            культуры Ангаро-Енисейского региона России.
+                        </p>
+                        <p>За годы деятельности филиала выпущено более 4500 высококвалифицированных специалистов,
+                            которые
+                            работают
+                            на предприятиях города, края и за его пределами мастерами, механиками, технологами,
+                            экономистами,
+                            менеджерами, а ряд выпускников – главными специалистами и директорами предприятий
+                            Лесосибирского
+                            лесопромышленного комплекса.
+                        </p>
+                        <p>Филиал СибГУ им. М.Ф. Решетнева в г. Лесосибирске ведет подготовку специалистов по основным
+                            образовательным программам высшего образования – программам бакалавриата и магистратуры:
+                        </p>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><strong>Код</strong></th>
+                                    <th scope="col"><strong>Наименование</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><strong>09.00.00</strong></th>
+                                    <td><strong>Информатика и вычислительная техника</strong></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">09.03.01</th>
+                                    <td>Информатика и вычислительная техника (уровень бакалавриата)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><strong>15.00.00</strong></th>
+                                    <td><strong>Машиностроение</strong></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">15.03.02</th>
+                                    <td>Технологические машины и оборудование (уровень бакалавриата)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">15.04.02</th>
+                                    <td>Технологические машины и оборудование (уровень магистратуры)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><strong>35.00.00</strong></th>
+                                    <td><strong>Сельское, лесное и рыбное хозяйство</strong></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">35.03.02</th>
+                                    <td>Технология лесозаготовительных и деревоперерабатывающих производств (уровень
+                                        бакалавриата)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">35.04.02</th>
+                                    <td>Технология лесозаготовительных и деревоперерабатывающих производств (уровень
+                                        магистратуры)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><strong>38.00.00</strong></th>
+                                    <td><strong>Экономика и управление</strong></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">38.03.01</th>
+                                    <td>Экономика (уровень бакалавриата)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><strong>39.00.00</strong></th>
+                                    <td><strong>Социология и социальная работа</strong></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">39.03.02</th>
+                                    <td>Социальная работа (уровень бакалавриата)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>Профессионально-общественная аккредитация основных профессиональных образовательных программ,
+                            основных
+                            программ профессионального обучения и (или) дополнительных профессиональных программ
+                            представляет
+                            собой
+                            признание качества и уровня подготовки выпускников, освоивших такие образовательные
+                            программы в
+                            конкретной организации, осуществляющей образовательную деятельность, отвечающими требованиям
+                            <a href="https://www.consultant.ru/document/cons_doc_LAW_157436/">профессиональных
+                                стандартов</a>,
+                            требованиям рынка труда к специалистам, рабочим и служащим соответствующего профиля.
+                        </p>
+                        <p>В 2022 году образовательная программа <a
+                                href="http://www.lfsibgu.ru/sveden/education/poa/#09.03.01">09.03.01</a> Информатика и
+                            вычислительная техника (профиль Программное обеспечение средств вычислительной техники и
+                            автоматизированных систем) прошла профессионально-общественную аккредитацию (аккредитующая
+                            организация -
+                            Ассоциация предприятий компьютерных и информационных технологий). Дата окончания действия
+                            свидетельства
+                            о профессионально-общественной аккредитации - 01 декабря 2026 г.
+                        </p>
+                        <p><a href="dopedu.html">Центр дополнительного профессионального образования</a> филиала ведет
+                            подготовку
+                            слушателей по образовательным программам повышения квалификации, профессиональной
+                            переподготовки
+                            в
+                            соответствии с профилем основных образовательных программ.
+                        </p>
+                        <p>Филиал имеет устойчивые связи с предприятиями региона; заключены договоры с
+                            лесоперерабатывающими
+                            предприятиями города, современное оборудование и технологии которых позволяют учебные и
+                            производственные
+                            практики проводить в производственных условиях.
+                        </p>
+                        <p>Филиал располагает хорошей материально-технической базой, лаборатории снабжены современным
+                            оборудованием
+                            и приборами.
+                        </p>
+                        <p>Филиал вносит существенный вклад в региональное развитие через удовлетворение потребностей
+                            регионального
+                            рынка труда в развитии научно-технического и научного инновационного потенциала. Предприятия
+                            лесопромышленного комплекса выступают инициаторами и заказчиками проведения научных
+                            исследований,
+                            которые выполняются сотрудниками филиала. Ряд научных разработок достаточно
+                            конкурентоспособны.
+                        </p>
+                        <div class="text-center pt-3 pb-3">
+                            <img class="mx-auto d-block border" src="filial-segodnya/Today_Dmitriev.jpg">
+                            <i>В кабинете лесозаготовительной техники</i>
+                        </div>
+                        <p>Так, в области комплексного и рационального использования древесного сырья таковыми являются
+                            технологии
+                            утилизации коры, изготовления огне-биозащищенных отделочных и конструкционно-отделочных плит
+                            и
+                            пластиков, очистки производственных сточных вод, сушки лиственничных пиломатериалов в
+                            сушильных
+                            камерах.
+                        </p>
+                        <p>В течение 2016-2022 гг. в диссертационных советах СибГУ и других вузов сотрудниками филиала
+                            защищено
+                            четыре докторские и одна кандидатская диссертации.
+                        </p>
+                        <p>В 2016-2022 годах сотрудники и студенты активно участвовали в научных конкурсах федерального
+                            и
+                            регионального уровня. По итогам участия в 2016 г. - регионального конкурса РГНФ «Российское
+                            могущество
+                            прирастать будет Сибирью и Ледовитым океаном», конкурса по организации проведения
+                            мероприятий по
+                            профессиональной ориентации молодежи, конкурса по организации участия студентов, аспирантов
+                            и
+                            молодых
+                            ученых во всероссийских, международных конференциях и научных мероприятиях – поддержка
+                            академической
+                            мобильности; в 2017 г. - конкурса по организации участия студентов, аспирантов и молодых
+                            ученых
+                            в
+                            конференциях, научных мероприятиях и стажировках; конкурса юных техников-изобретателей; в
+                            2018
+                            г. -
+                            конкурса проектов фундаментальных научных исследований, выполняемых молодыми учеными (Мой
+                            первый
+                            грант);
+                            регионального конкурса проектов фундаментальных научных исследований; конкурса по
+                            организации
+                            проведения
+                            мероприятий по профессиональной ориентации молодежи; конкурса по организации участия
+                            студентов,
+                            аспирантов и молодых ученых в конференциях, научных мероприятиях и стажировках и конкурса
+                            юных
+                            техников-изобретателей; в 2019 г. - региональном конкурсе проектов фундаментальных научных
+                            исследований
+                            2019-2020 годов, в конкурсе проектов прикладных научно-технических и социально-гуманитарных
+                            исследований
+                            и экспериментальных разработок, направленных на создание продукции и технологий для
+                            обеспечения
+                            конкурентных преимуществ Красноярского края, в конкурсе 2019 года на право получения грантов
+                            Президента
+                            Российской Федерации для государственной поддержки молодых российских ученых – кандидатов
+                            наук,
+                            в
+                            2020
+                            г. - Конкурса проектов прикладных научно-технических и социально-гуманитарных исследований и
+                            экспериментальных разработок, направленных на создание продукции и технологий для
+                            обеспечения
+                            конкурентных преимуществ Красноярского края; в 2021 г. - конкурса проектов прикладных
+                            научных
+                            исследований и экспериментальных разработок, выполняемых магистрантами, аспирантами и
+                            молодыми
+                            учёными в
+                            целях обеспечения устойчивого развития Арктики и территорий Крайнего Севера; в 2022 г. -
+                            конкурса на
+                            получение грантов РНФ по мероприятию «Проведение исследований научными группами под
+                            руководством
+                            молодых
+                            ученых» и конкурса научно-технических и инновационных проектов в интересах первого
+                            климатического
+                            Научно-образовательного центра мирового уровня «Енисейская Сибирь» (при взаимодействии с
+                            субъектами
+                            реального сектора экономики и АНО «Корпорация развития Енисейской Сибири»).
+                        </p>
+                        <p>Студентам филиала в 2016-2022 годах были назначены стипендии Президента Российской Федерации
+                            студентам
+                            очной формы обучения, обучающимся по направлениям подготовки, соответствующим приоритетным
+                            направлениям
+                            модернизации и технологического развития российской экономики, стипендии Правительства
+                            Российской
+                            Федерации, краевые именные стипендии имени академика М.Ф. Решетнева за достижения в области
+                            технических
+                            наук, имени первого Губернатора Енисейской губернии А.П. Степанова за достижения в области
+                            гуманитарных
+                            науки и имени В.А. Новикова за достижения в области социологии и социальной работы,
+                            политических
+                            наук и
+                            регионоведения. Например, студентам Швецову В.Ю., Ташкиной А.С. назначена на весенний
+                            семестр
+                            2021-2022
+                            учебного года стипендия Правительства РФ - для студентов очной формы обучения
+                            образовательных
+                            учреждений
+                            высшего профессионального образования, аспирантов очной формы обучения образовательных
+                            учреждений
+                            высшего и дополнительного профессионального образования и научных организаций; студенту
+                            Матюнину
+                            К.А.
+                            назначена на весенний семестр 2021-2022 учебного года стипендия Правительства РФ - для
+                            студентов
+                            очной
+                            формы обучения образовательных учреждений высшего профессионального образования, аспирантов
+                            очной
+                            формы
+                            обучения образовательных учреждений высшего и дополнительного профессионального образования
+                            и
+                            научных
+                            организаций, обучающихся по направлениям подготовки (специальностям), соответствующим
+                            приоритетным
+                            направлениям модернизации и технологического развития российской экономики, по имеющим
+                            государственную
+                            аккредитацию образовательным программам; студенту Швецовой И.Г., назначена на осенний
+                            семестр
+                            2022-2023
+                            учебного года стипендия Президента РФ - для студентов очной формы обучения образовательных
+                            учреждений
+                            высшего профессионального образования, аспирантов очной формы обучения образовательных
+                            учреждений
+                            высшего и дополнительного профессионального образования и научных организаций; студентам
+                            Швецовой
+                            И.Г.,
+                            Семененко Е.А, Сурничеву В.Л. назначена на осенний семестр 2022-2023 учебного года стипендия
+                            Президента
+                            РФ - для студентов очной формы обучения образовательных учреждений высшего профессионального
+                            образования, аспирантов очной формы обучения образовательных учреждений высшего и
+                            дополнительного
+                            профессионального образования и научных организаций.
+                        </p>
+                        <p>Для проживания всех иногородних студентов в филиале имеется благоустроенное общежитие,
+                            расположенное
+                            рядом с учебными корпусами.
+                        </p>
+                        <div class="text-center pt-3 pb-3">
+                            <div class="row">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_1.jpg">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_2.jpg">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_3.jpg">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_4.jpg">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_5.jpg">
+                                <img class="col-lg-4 col-md-12 mx-auto d-block pt-3" src="filial-segodnya/Today_obsh_6.jpg">
+                            </div>
+                            <i>Общежитие филиала</i>
+                        </div>
+                        <p>Парк компьютерной техники филиала составляет более 200 персональных компьютеров. В
+                            информационно-вычислительном центре филиала имеется 5 классов ЭВМ. Программное обеспечение
+                            филиала
+                            полностью лицензировано и включает более 30 наименований, среди них: Microsoft Windows;
+                            Microsoft
+                            Office; KOMPAS; Corel Draw; КонсультантПюс; Statistica; Mathcad; Project Expert; Solid
+                            Works.
+                        </p>
+                        <p>Филиал имеет безлимитный тариф на доступ к ресурсам сети Интернет. Студенты филиала могут
+                            работать в
+                            сети
+                            Интернет бесплатно.
+                        </p>
+                        <p>Компьютеры подразделений и классов ЭВМ входят в состав корпоративной сети филиала,
+                            построенной на
+                            базе
+                            архитектуры клиент-сервер, что позволят каждому сотруднику и студенту получать доступ к
+                            ресурсам
+                            локальных серверов и сети Интернет с любого компьютера.
+                        </p>
+                        <p>Преподавателями освоена и активно используется адаптивная тестовая система ACT с комплектом
+                            тестов по
+                            различным дисциплинам.
+                        </p>
+                        <div class="text-center pt-3 pb-3">
+                            <img class="mx-auto d-block border" src="filial-segodnya/Today_ivc.jpg">
+                            <i>Занятие в классе информационно-вычислительного центра</i>
+                        </div>
+                        <p>Для более качественного проведения занятий по дисциплинам на всех кафедрах филиала созданы
+                            мультимедийные
+                            классы. В филиале создана и активно используется телевизионная информационная система,
+                            мониторы
+                            которой
+                            расположены на всех этажах учебного корпуса.
+                        </p>
+                        <p>Книжный фонд научно-технической библиотеки (НТБ) составляет более 140 тыс. экз. Для
+                            организации
+                            оперативного поиска информации используются возможности система автоматизации библиотек
+                            «ИРБИС».
+                            В
+                            электронном каталоге НТБ сформированы и пополняются базы данных: «Учебная литература»,
+                            «Периодические
+                            издания», «Научные публикации учёных филиала», «Художественная литература». Для обеспечения
+                            информацией
+                            НИР и НИРС выписываются реферативные журналы по профилю образовательных программ.
+                        </p>
+                        <p>Для студентов всех форм обучения проводятся презентации библиотеки, тренинги, мероприятия
+                            культурно-просветительского характера.
+                        </p>
+                        <p>Наши студенты активно участвуют во внутривузовских, городских и краевых культурно-массовых
+                            мероприятиях.
+                            В филиале организована видеостудия, информационные выпуски которой рассказывают о творческой
+                            и
+                            научной
+                            жизни студентов и преподавателей.
+                        </p>
+                        <div class="text-center pt-3 pb-3">
+                            <img class="mx-auto d-block border" src="filial-segodnya/Today_aerobika.jpg">
+                            <i>Команда аэробики филиала</i>
+                        </div>
+                        <p>Студенты филиала ежегодно участвуют в городском фестивале «Студенческая весна» и
+                            общегородском
+                            новогоднем
+                            бале.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="pt-5 mt-5 pt-md-5 border-top bg-primary">
+            <div class="m-0 row text-white">
+                <div class="pt-3 ps-4 col-12 col-md">
+                    <ul class="list-unstyled">
+                        <h5><strong>КОНТАКТЫ</strong></h5>
+                        <p>662543, Красноярский край,г. Лесосибирск, ул. Победы, 29a</p>
+                        <li><a href="kontaktu.html" class="nav-link"><u>Больше контактов</u></a></li>
+                    </ul>
+                </div>
+                <div class="pt-5 ps-4 col-12 col-md">
+                    <p>Приемная директора: ауд. 420, тел.: <br>8 (39145) 6-28-03,<br>факс: 8 (39145) 6-28-02,
+                        lf@sibsau.ru</p>
+                    <p>Приемная комиссия: ауд. 218, тел.: <br>8 (39145) 6-11-59, <br>pklf@sibsau.ru</p>
+                </div>
+                <div class="pt-3 ps-4 col-12 col-md">
+                    <h5><strong>ОБЩЕСТВЕННАЯ ПРИЕМНАЯ</strong></h5>
+                    <p>Задайте интересующий Вас вопрос.</p>
+                    <a href="obratnaya-svyaz.html" class="btn btn-secondary rounded-9">Обратная связь</a>
+                </div>
+                <div class="pt-3 ps-4 col-12 col-md">
+                    <h5><strong>СОЦИАЛЬНЫЕ СЕТИ</strong></h5>
+                </div>
+            </div>
+            <div class="m-0 pt-3 row text-white">
+                <div class="pt-3 ps-4 pe-5 col col-md border-top">
+                    <h5>Лесосибирский филиал федерального государственного бюджетного образовательного учреждения
+                        высшего
+                        образования
+                        "Сибирский государственный университет науки и технологий имени академика М.Ф. Решетнева"</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/bootstrap.js"></script>
+</body>
+
+</html>

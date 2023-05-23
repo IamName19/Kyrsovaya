@@ -1,0 +1,20 @@
+.scene .carre{
+  width:200px;
+  height:200px;
+  background-color:red;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+#one:target ~ .scene .carre {
+    width:700px;
+    background-color:blue;
+}
+#two:target ~ .scene .carre {
+    width:100px;
+    background-color:green;
+}
+#three:target ~ .scene .carre {
+    width:500px;
+    background-color:purple;
+}
